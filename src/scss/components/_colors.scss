@@ -1,0 +1,8 @@
+@each $color in $colors {
+  $name: nth($color, 1);
+  $color: nth($color, 2);
+
+  .text-#{$name} {
+    color: $color;
+  }
+}

@@ -1,0 +1,49 @@
+//----------------------------------*\
+// CONFIG VARS
+//----------------------------------*/
+@import 'modules/vars';
+
+//----------------------------------*\
+// SCSS MIXINS
+//----------------------------------*/
+@import 'mixins/responsive';
+
+//----------------------------------*\
+// VENDOR
+//----------------------------------*/
+@import '../../node_modules/swiper/swiper.scss';
+@import '../../node_modules/swiper/modules/effect-fade.scss';
+
+//----------------------------------*\
+// PARTIALS
+//----------------------------------*/
+@import 'partials/normalize';
+@import 'partials/grid';
+@import 'partials/general';
+@import 'partials/typography';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/sidebar';
+
+@import 'partials/nav';
+@import 'partials/main';
+@import 'partials/print';
+@import 'partials/breadcrumbs';
+@import 'partials/pagination';
+@import 'partials/section';
+@import 'partials/key-frames';
+@import 'partials/top-bar';
+@import 'partials/single-article';
+
+//----------------------------------*\
+// COMPONENTS
+//----------------------------------*/
+@import 'components/colors';
+@import 'components/hamburgers';
+@import 'components/button';
+@import 'components/form';
+@import 'components/helpers';
+
+//----------------------------------*\
+// SECTIONS
+//----------------------------------*/

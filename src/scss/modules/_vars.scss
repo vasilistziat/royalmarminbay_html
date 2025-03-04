@@ -1,0 +1,54 @@
+/* ========================================================== */
+/* 			            01. Variables                          */
+/* ========================================================== */
+$font-size-root: 16px !default;
+$grid-gutter: 16px !default;
+$grid-max-innerwidth: 1616px !default;
+$grid-max-width: $grid-max-innerwidth !default;
+$grid-columns: 12 !default;
+
+/* ========================================================== */
+/* 			            02. Colors                          */
+/* ========================================================== */
+$gray-100: #f8f9fa !default;
+$gray-200: #E9E9E9 !default;
+$gray-300: #918f9f !default;
+$indigo-900: #231f40 !default;
+$indigo-500: #52467c !default;
+$indigo-300: #6a5a9b !default;
+$pink-50: #ffeaf0 !default;
+$pink-200: #fa9fb7 !default;
+$pink-700: #e41c51 !default;
+$pink-800: #cc003a !default;
+
+$colors: (
+  'gray-100': $gray-100,
+  'gray-200': $gray-200,
+  'gray-300': $gray-300,
+  'indigo-900': $indigo-900,
+  'indigo-500': $indigo-500,
+  'indigo-300': $indigo-300,
+  'pink-50': $pink-50,
+  'pink-200': $pink-200,
+  'pink-700': $pink-700,
+  'pink-800': $pink-800
+);
+
+/* ========================================================== */
+/* 			         03. Breakpoints                          */
+/* ========================================================== */
+$mobile-start: 460px !default; // @include media-query(mobile){}
+$tablet-portrait-start: 680px !default; // @include media-query(mobile){}
+$tablet-landscape-start: 960px !default; // @include media-query(tablet-port){}
+$desk-start: 1200px !default; // @include media-query(desk){}
+$desk-wide-start: 1320px !default; // @include media-query(desk-wide){}
+$desk-hd-start: 1680px !default; // @include media-query(desk-hd){}
+
+$breakpoints: (
+  '': false,
+  'sm': $mobile-start,
+  'md': $tablet-portrait-start,
+  'lg': $tablet-landscape-start,
+  'xl': $desk-start,
+  'xxl': $desk-wide-start
+);

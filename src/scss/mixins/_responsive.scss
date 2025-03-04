@@ -1,0 +1,31 @@
+@mixin media-query($media-query) {
+  @if $media-query == port {
+    @media only screen and (min-width: $tablet-portrait-start) { // 680px
+      @content;
+    }
+  }
+
+  @if $media-query == landscape {
+    @media only screen and (min-width: $tablet-landscape-start) { // 960px
+      @content;
+    }
+  }
+
+  @if $media-query == desk {
+    @media only screen and (min-width: $desk-start) { // 1200px
+      @content;
+    }
+  }
+
+  @if $media-query == desk-wide {
+    @media only screen and (min-width: $desk-wide-start) { // 1320px
+      @content;
+    }
+  }
+  
+  @if $media-query == desk-hd {
+    @media only screen and (min-width: $desk-hd-start) { // 1680px
+      @content;
+    }
+  }
+}
